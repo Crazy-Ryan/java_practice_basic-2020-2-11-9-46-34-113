@@ -9,6 +9,7 @@ public class CardMachine {
     private ArrayList<Card> remainingCards;
 
     public CardMachine() {
+        remainingCards = new ArrayList<>();
     }
 
     public void initCardMachine() {
