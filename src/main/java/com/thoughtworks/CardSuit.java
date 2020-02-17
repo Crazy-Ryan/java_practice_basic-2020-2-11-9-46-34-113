@@ -1,6 +1,6 @@
 package com.thoughtworks;
 
-public enum Suit {
+public enum CardSuit {
     CLUB("黑桃"),
     HEART("红桃"),
     DIAMOND("梅花"),
@@ -8,7 +8,7 @@ public enum Suit {
 
     private String nameCN;
 
-    Suit(String nameCN){
+    CardSuit(String nameCN){
         this.nameCN = nameCN;
     }
 
