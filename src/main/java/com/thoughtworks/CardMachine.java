@@ -47,10 +47,11 @@ public class CardMachine {
     public void run() {
         Scanner scanner = new Scanner(System.in);
         System.out.println("==============================================");
-        System.out.print("Please input the number of cards you want: ");
+        int totalNumOfCards = remainingCards.size();
+        System.out.print("Please input the number of cards (1-" + totalNumOfCards + "): ");
         int cardCount = scanner.nextInt();
         while (cardCount <= 0 || cardCount > remainingCards.size()) {
-            System.out.print("Please input the correct number: ");
+            System.out.print("Please input the correct number (1-" + totalNumOfCards + "): ");
             cardCount = scanner.nextInt();
         }
         printPickedCards(drawCard(cardCount));
