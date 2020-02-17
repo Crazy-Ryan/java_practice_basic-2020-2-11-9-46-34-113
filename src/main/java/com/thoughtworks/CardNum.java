@@ -2,7 +2,6 @@ package com.thoughtworks;
 
 public enum CardNum {
     ACE("A"),
-    ONE("1"),
     TWO("2"),
     THREE("3"),
     FOUR("4"),
