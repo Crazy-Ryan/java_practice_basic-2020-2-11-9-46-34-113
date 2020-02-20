@@ -1,10 +1,10 @@
 package com.thoughtworks;
 
 public enum CardSuit {
-    CLUB("黑桃"),
+    CLUB("梅花"),
     HEART("红桃"),
-    DIAMOND("梅花"),
-    SPADE("方片");
+    DIAMOND("方片"),
+    SPADE("黑桃");
 
     private String nameCN;
 
